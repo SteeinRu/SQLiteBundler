@@ -10,5 +10,11 @@ namespace SQLiteBundler
     {
         private double version = 1.0;
 
+
+
+        public double getVersion()
+        {
+            return version;
+        }
     }
 }
